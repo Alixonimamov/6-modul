@@ -1,13 +1,15 @@
 # This is a sample Python script.
 import time
 import tkinter
+
+
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
 # def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    # print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Use a breakpoint in the code line below to debug your script.
+# print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
@@ -216,7 +218,6 @@ import tkinter
 #     clock.config(text=timeVar)
 #     clock.after(200, get_time)
 #
-#
 # clock=Label(window, font=("Arial", 100),bg="Black", fg="green")
 # clock.pack()
 #
@@ -246,3 +247,245 @@ import tkinter
 #
 # window.mainloop()
 
+
+# class Car:
+#
+#     def __init__(self, yil, model, rangi, nomi):
+#         self.yil = yil
+#         self.model = model
+#         self.rangi = rangi
+#         self.nomi=nomi
+#
+#     def harakatlan(self, tezligi):
+#         return f"{self.model}, harakatlanyapti {tezligi} km/h tezlikda"
+#
+#     def eshiq_ochilsin(self):
+#         return f"{self.model} eshigi ochildi"
+#
+#
+# ferrari = Car("2023", "G480", "qizil", "Ferrari")
+#
+# print(f"Moshina yili {ferrari.yil}\n"
+#       f"Moshina rangi {ferrari.rangi}\n"
+#       f"Moshina modeli {ferrari.model}\n"
+#       f"Moshina nomi {ferrari.nomi}")
+#
+# print(ferrari.harakatlan(420))
+# print(ferrari.eshiq_ochilsin())
+
+
+# class Xayvon:
+#     def __init__(self, yoshi, rangi, nomi):
+#         self.yoshi=yoshi
+#         self.rangi=rangi
+#         self.nomi=nomi
+#
+#     def aviladi(self):
+#         return f"{self.nomi} aviladi"
+#
+# kuchuk=Xayvon("5","qora", "Buldok")
+#
+# print(f"yoshi {kuchuk.yoshi}\n"
+#       f"rangi {kuchuk.rangi}\n"
+#       f"nomi {kuchuk.nomi}\n")
+# print(kuchuk.aviladi())
+
+#Homework
+#dog
+# class Xayvon:
+#     def __init__(self, yoshi, rangi, nomi):
+#         self.yoshi=yoshi
+#         self.rangi=rangi
+#         self.nomi=nomi
+#
+#     def aviladi(self):
+#         return f"{self.nomi} vav vav kildi"
+#
+# kuchuk=Xayvon("5","qora", "Buldok")
+#
+# print(f"yoshi {kuchuk.yoshi}\n"
+#       f"rangi {kuchuk.rangi}\n"
+#       f"nomi {kuchuk.nomi}\n")
+# print(kuchuk.aviladi())
+
+
+
+
+
+
+#cat
+# class Xayvon:
+#     def __init__(self, yoshi, rangi, nomi):
+#         self.yoshi=yoshi
+#         self.rangi=rangi
+#         self.nomi=nomi
+#
+#     def miavladi(self):
+#         return f"{self.nomi} miav miav kildi"
+#
+# mushuk=Xayvon("1","oq", "Bobik")
+#
+# print(f"yoshi {mushuk.yoshi}\n"
+#       f"rangi {mushuk.rangi}\n"
+#       f"nomi {mushuk.nomi}\n")
+# print(mushuk.miavladi())
+
+
+
+
+
+
+
+
+#Horse
+# class Xayvon:
+#     def __init__(self, yoshi, rangi, nomi):
+#         self.yoshi=yoshi
+#         self.rangi=rangi
+#         self.nomi=nomi
+#
+#     def igaga(self):
+#         return f"{self.nomi} igagaga kildi"
+#
+# horse=Xayvon("10","gigarang", "biser")
+#
+# # print(f"yoshi {horse.yoshi}
+#
+#
+#
+#
+# class Odam:
+#      def __init__(self, yoshi, sinfi, ismi):
+#          self.yoshi=yoshi
+#          self.sinfi=sinfi
+#          self.ismi=ismi
+#
+#      # def miavladi(self):
+#      #     return f"{self.nomi} miav miav kildi"
+#
+# mushuk=Odam("10","4D", "Jimmy")
+#
+# print(f"yoshi {mushuk.yoshi}\n"
+#        f"sinfi {mushuk.sinfi}\n"
+#        f"ismi {mushuk.ismi}\n")
+# # print(mushuk.miavladi()
+#
+#
+# class Odam:
+#     def __init__(self, yoshi, sinfi, ismi):
+#         self.yoshi = yoshi
+#         self.sinfi = sinfi
+#         self.ismi=ismi
+#
+#     # def miavladi(self):
+#     #     return f"{self.nomi} miav miav kildi"
+#
+#
+# mushuk = Odam("15", "9v", "Gabriel")
+#
+# print(f"yoshi {mushuk.yoshi}\n"
+#       f"sinfi {mushuk.sinfi}\n"
+#       f"ismi {mushuk.ismi}\n")
+
+
+# class BankAccount:
+#     def __init__(self,owner,balance):
+#         self.owner=owner
+#         self.__balance=balance
+#         self.history=[]
+#
+#     def deposit(self,amout):
+#         self.__balance+=amout
+#         self.history.append(f"{self.owner} uchun {amout}$ miqdorda pul qoshildi\n"
+#                             f"Yangi balans {self.__balance}")
+#
+#         print(f"{self.owner} uchun {amout}$ miqdorda pul qoshildi")
+#
+#     def takeoff(self,amout):
+#         if amout > self.__balance:
+#             print(f"Mablaq' yetarli emas! Xozirgi balans {self.__balance}")
+#         else:
+#             self.__balance-=amout
+#             self.history.append(f"{self.owner} uchun {amout}$ miqdorda pul yechip olindi")
+
+
+# from abc import ABC,abstractmethod
+#
+#
+# class Animal(ABC):
+#     def __init__(self, name):
+#         self.name=name
+#
+#
+#     @abstractmethod
+#     def make_sound(self):
+#         pass
+#
+# class Cat(Animal):
+#     def __init__(self,name):
+#         super().__init__(name)
+#
+#     def make_sound(self):
+#         print(f"{self.name},Salom")
+#
+# animal1=Cat("Mushuk")
+# animal1.make_sound()
+#
+
+# from abc import ABC,abstractmethod
+# class Person(ABC):
+#     def __init__(self, name):
+#         self.name = name
+#
+#     @abstractmethod
+#     def make_sound(self):
+#         pass
+#ё
+#
+# class Student(Person):
+#     def __init__(self, name):
+#         super().__init__(name)
+#
+#     def make_sound(self):
+#         print(f"{self.name},Salom")
+#
+#
+# Student=Student("Alixon")
+# Student.make_sound()
+
+ # with open("my_file.txt","w")as f:
+ #    print(f.write("Umar\n"
+ #                  "Muhammadali\n"
+ #                  "Kamron"))
+
+
+
+
+import pygame
+
+pygame.init()
+
+pygame.display.set_caption("My_Game")
+screen=pygame.display.set_mode((400,500),pygame.RESIZABLE)
+
+icon=pygame.image.load("C:\\Users\\hp-Alixon\\PycharmProjects\\6-modul\\img_7.png")
+pygame.display.set_icon(icon)
+
+white=pygame.Color("#ffff00")
+running=True
+
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running=False
+
+        screen.fill(white)
+        pygame.display.update()
+
+
+
+
+
+
+
+pygame.quit()
